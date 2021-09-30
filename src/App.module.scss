@@ -1,0 +1,30 @@
+.gridConatiner {
+  display: grid;
+  grid-template-columns: 20% 40% 40%;
+  grid-template-rows: 40vh 40vh 20vh;
+}
+
+.header {
+  background-color: antiquewhite;
+  grid-area: 1/2/2/4;
+}
+.navigation {
+  background-color: darkmagenta;
+  grid-area: 1/1/4/2;
+}
+.mainBodyPart1 {
+  background-color: darkolivegreen;
+}
+.mainBodyPart2 {
+  background-color: darkorange;
+}
+.footer {
+  background-color: burlywood;
+  grid-area: 3/2/4/4;
+}
+
+.floatingEditIcon {
+  position: fixed;
+  top: 90vh;
+  right: 2vh;
+}
